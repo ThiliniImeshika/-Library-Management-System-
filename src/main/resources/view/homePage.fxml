@@ -11,37 +11,32 @@
 
       <VBox prefHeight="403.0" prefWidth="159.0" style="-fx-background-color: #001B24;">
          <children>
-            <Button fx:id="btnHome" mnemonicParsing="false" onAction="#btnHomeOnAction" prefHeight="58.0" prefWidth="152.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Home" textFill="WHITE">
+            <Button fx:id="btnAddBook" mnemonicParsing="false" onAction="#addBookOnAction" prefHeight="62.0" prefWidth="152.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Add Book" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnAddBook" mnemonicParsing="false" onAction="#addBookOnAction" prefHeight="60.0" prefWidth="152.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Add Book" textFill="WHITE">
+            <Button fx:id="btnAddMember" mnemonicParsing="false" onAction="#addMemberOnAction" prefHeight="65.0" prefWidth="152.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Add Member" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnAddMember" mnemonicParsing="false" onAction="#addMemberOnAction" prefHeight="53.0" prefWidth="152.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Add Member" textFill="WHITE">
+            <Button fx:id="btnViewMembers" mnemonicParsing="false" onAction="#viewmembersOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="View Members" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnManageMembers" mnemonicParsing="false" onAction="#managemembersOnAction" prefHeight="58.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text=" Manage Members" textFill="WHITE">
+            <Button fx:id="btnIssueBook" mnemonicParsing="false" onAction="#issuebookOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Issue Book" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnIssueBook" mnemonicParsing="false" onAction="#issuebookOnAction" prefHeight="60.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Issue Book" textFill="WHITE">
+            <Button fx:id="btnReturnBook" mnemonicParsing="false" onAction="#returnbookOnAction" prefHeight="68.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Return Book" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnReturnBook" mnemonicParsing="false" onAction="#returnbookOnAction" prefHeight="59.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Return Book" textFill="WHITE">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
-            <Button fx:id="btnBorrowHistory" mnemonicParsing="false" onAction="#burrowhistoryOnAction" prefHeight="58.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Borrowing History" textFill="WHITE">
+            <Button fx:id="btnBorrowHistory" mnemonicParsing="false" onAction="#burrowhistoryOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Borrowing History" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>

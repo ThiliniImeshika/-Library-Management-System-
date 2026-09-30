@@ -20,8 +20,6 @@ public class HomePageController {
     @FXML
     private Button btnBorrowHistory;
 
-    @FXML
-    private Button btnHome;
 
     @FXML
     private Button btnIssueBook;
@@ -30,7 +28,7 @@ public class HomePageController {
     private Button btnLogOut;
 
     @FXML
-    private Button btnManageMembers;
+    private Button btnViewMembers;
 
     @FXML
     private Button btnReturnBook;
@@ -59,10 +57,7 @@ public class HomePageController {
 
     }
 
-    @FXML
-    void btnHomeOnAction(ActionEvent event) {
 
-    }
 
     @FXML
     void burrowhistoryOnAction(ActionEvent event) {
@@ -87,7 +82,14 @@ public class HomePageController {
     }
 
     @FXML
-    void managemembersOnAction(ActionEvent event) {
+    void viewmembersOnAction(ActionEvent event) {
+        Stage stage = new Stage();
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/viewMember.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
 
     }
 
