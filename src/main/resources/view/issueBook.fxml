@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ebdacc;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.IssueBookController">
+   <children>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="57.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Select member" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="103.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Select book " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="151.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Issue date" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="200.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Due date" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnHome" layoutX="322.0" layoutY="304.0" mnemonicParsing="false" onAction="#homeOnAction" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: #5a0f19;" text="Home" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bttnIssueBook" layoutX="54.0" layoutY="304.0" mnemonicParsing="false" onAction="#issuebookOnAction" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: #5a0f19;" text="Issue Book" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtSelectMember" layoutX="182.0" layoutY="61.0" onAction="#selectmemberOnAction" prefHeight="26.0" prefWidth="373.0" />
+      <TextField fx:id="txtSelectBook" layoutX="182.0" layoutY="110.0" onAction="#selectbookOnActiom" prefHeight="26.0" prefWidth="373.0" />
+      <DatePicker fx:id="dateIssueDate" layoutX="185.0" layoutY="155.0" onAction="#issuedateOnAction" prefHeight="26.0" prefWidth="366.0" />
+      <DatePicker fx:id="dateDueDate" layoutX="185.0" layoutY="204.0" onAction="#duedateOnAction" prefHeight="26.0" prefWidth="366.0" />
+   </children>
+</AnchorPane>

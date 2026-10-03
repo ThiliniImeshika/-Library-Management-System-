@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ebdacc;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ReturnBookController">
+   <children>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="120.0" prefHeight="24.0" prefWidth="229.0" style="-fx-background-color: #8a3119;" text="Full Name " textFill="#f7f5f5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="120.0" prefHeight="24.0" prefWidth="229.0" style="-fx-background-color: #8a3119;" text="Borrowed date" textFill="#f7f5f5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="214.0" prefHeight="24.0" prefWidth="229.0" style="-fx-background-color: #8a3119;" text="Return date " textFill="#f7f5f5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="165.0" prefHeight="24.0" prefWidth="229.0" style="-fx-background-color: #8a3119;" text="Due date " textFill="#f7f5f5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="80.0" prefHeight="24.0" prefWidth="229.0" style="-fx-background-color: #8a3119;" text="Full NamMember information e " textFill="#f7f5f5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="40.0" prefHeight="24.0" prefWidth="229.0" style="-fx-background-color: #8a3119;" text="Search Borrowed Book" textFill="#f7f5f5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnReturnBook" layoutX="86.0" layoutY="317.0" mnemonicParsing="false" onAction="#returnbookOnAction" prefHeight="40.0" prefWidth="159.0" style="-fx-background-color: #5a0f19;" text="Return Book" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnHome" layoutX="363.0" layoutY="317.0" mnemonicParsing="false" onAction="#homeOnAction" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #5a0f19;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="dateDueDate" layoutX="294.0" layoutY="166.0" onAction="#duedateOnAction" prefHeight="26.0" prefWidth="289.0" />
+      <DatePicker fx:id="dateReturnDate" layoutX="294.0" layoutY="214.0" onAction="#returndateOnAction" prefHeight="26.0" prefWidth="289.0" />
+      <DatePicker fx:id="dateBorrowedDate" layoutX="294.0" layoutY="120.0" onAction="#borroweddateOnAction" prefHeight="26.0" prefWidth="289.0" />
+      <TextField fx:id="txtSearchBorrowedBook" layoutX="289.0" layoutY="41.0" onAction="#searchborrowedbookOnAction" prefHeight="26.0" prefWidth="290.0" />
+      <TextField fx:id="txtFullMemberInfo" layoutX="293.0" layoutY="80.0" onAction="#fullmemberinfoOnAction" prefHeight="26.0" prefWidth="290.0" />
+      <Label layoutX="24.0" layoutY="9.0" prefHeight="30.0" prefWidth="418.0" text="Return Book" textFill="#5a0f19">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

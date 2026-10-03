@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BorrowingHistoryController">
+   <children>
+      <AnchorPane layoutX="2.0" layoutY="2.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ebdacc;">
+         <children>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="27.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Member ID " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="72.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Book title " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="119.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Issue date " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="165.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Due date " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="213.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Return date " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="265.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Status" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnHome" layoutX="206.0" layoutY="333.0" mnemonicParsing="false" onAction="#homeOnAction" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: #5a0f19;" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtMemberId" layoutX="185.0" layoutY="31.0" onAction="#memberidOnAction" prefHeight="26.0" prefWidth="374.0" />
+            <TextField fx:id="tctBookTitle" layoutX="185.0" layoutY="76.0" onAction="#booktitleOnAction" prefHeight="26.0" prefWidth="374.0" />
+            <DatePicker fx:id="dateIssueDate" layoutX="185.0" layoutY="123.0" onAction="#issueDateOnAction" prefHeight="26.0" prefWidth="374.0" />
+            <DatePicker fx:id="txtDueDate" layoutX="185.0" layoutY="169.0" onAction="#duedateOnAction" prefHeight="26.0" prefWidth="374.0" />
+            <DatePicker fx:id="txtReturnDate" layoutX="185.0" layoutY="213.0" onAction="#returndateOnAction" prefHeight="26.0" prefWidth="374.0" />
+            <TextField fx:id="txtStatus" layoutX="185.0" layoutY="270.0" onAction="#ststusOnAction" prefHeight="26.0" prefWidth="374.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

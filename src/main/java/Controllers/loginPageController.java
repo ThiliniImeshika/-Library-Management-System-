@@ -23,6 +23,7 @@ public class loginPageController {
     @FXML
     void btnClearOnAction(ActionEvent event) {
 
+
     }
 
     @FXML
