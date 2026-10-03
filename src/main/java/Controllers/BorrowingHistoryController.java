@@ -11,31 +11,31 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class ReturnBookController {
+public class BorrowingHistoryController {
 
     @FXML
     private Button btnHome;
 
     @FXML
-    private Button btnReturnBook;
+    private DatePicker dateIssueDate;
 
     @FXML
-    private DatePicker dateBorrowedDate;
+    private TextField tctBookTitle;
 
     @FXML
-    private DatePicker dateDueDate;
+    private DatePicker txtDueDate;
 
     @FXML
-    private DatePicker dateReturnDate;
+    private TextField txtMemberId;
 
     @FXML
-    private TextField txtFullMemberInfo;
+    private DatePicker txtReturnDate;
 
     @FXML
-    private TextField txtSearchBorrowedBook;
+    private TextField txtStatus;
 
     @FXML
-    void borroweddateOnAction(ActionEvent event) {
+    void booktitleOnAction(ActionEvent event) {
 
     }
 
@@ -45,15 +45,10 @@ public class ReturnBookController {
     }
 
     @FXML
-    void fullmemberinfoOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
     void homeOnAction(ActionEvent event) {
         Stage stage = new Stage();
         try {
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/homePage.fxml"))));
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/homePage_page.fxml"))));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -62,7 +57,12 @@ public class ReturnBookController {
     }
 
     @FXML
-    void returnbookOnAction(ActionEvent event) {
+    void issueDateOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void memberidOnAction(ActionEvent event) {
 
     }
 
@@ -72,7 +72,7 @@ public class ReturnBookController {
     }
 
     @FXML
-    void searchborrowedbookOnAction(ActionEvent event) {
+    void ststusOnAction(ActionEvent event) {
 
     }
 

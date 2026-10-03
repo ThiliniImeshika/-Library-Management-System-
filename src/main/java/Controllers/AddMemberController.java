@@ -24,7 +24,7 @@ public class AddMemberController {
     void addmemberOnAction(ActionEvent event) {
         Stage stage = new Stage();
         try {
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/login_page.fxml"))));
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/homePage_page.fxml"))));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -6,64 +6,64 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomePageController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ebdacc;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomePageController">
    <children>
 
       <VBox prefHeight="403.0" prefWidth="159.0" style="-fx-background-color: #001B24;">
          <children>
-            <Button fx:id="btnAddBook" mnemonicParsing="false" onAction="#addBookOnAction" prefHeight="62.0" prefWidth="152.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Add Book" textFill="WHITE">
+            <Button fx:id="btnAddBook" mnemonicParsing="false" onAction="#addBookOnAction" prefHeight="62.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: #5a0f19; -fx-border-width: 0px 0px 2px 0px;" text="Add Book" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnAddMember" mnemonicParsing="false" onAction="#addMemberOnAction" prefHeight="65.0" prefWidth="152.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Add Member" textFill="WHITE">
+            <Button fx:id="btnAddMember" mnemonicParsing="false" onAction="#addMemberOnAction" prefHeight="65.0" prefWidth="158.0" style="-fx-border-color: white; -fx-background-color: #5a0f19; -fx-border-width: 0px 0px 2px 0px;" text="Add Member" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnViewMembers" mnemonicParsing="false" onAction="#viewmembersOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="View Members" textFill="WHITE">
+            <Button fx:id="btnViewMembers" mnemonicParsing="false" onAction="#viewmembersOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: #5a0f19; -fx-border-width: 0px 0px 2px 0px;" text="View Members" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnIssueBook" mnemonicParsing="false" onAction="#issuebookOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Issue Book" textFill="WHITE">
+            <Button fx:id="btnIssueBook" mnemonicParsing="false" onAction="#issuebookOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: #5a0f19; -fx-border-width: 0px 0px 2px 0px;" text="Issue Book" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnReturnBook" mnemonicParsing="false" onAction="#returnbookOnAction" prefHeight="68.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Return Book" textFill="WHITE">
+            <Button fx:id="btnReturnBook" mnemonicParsing="false" onAction="#returnbookOnAction" prefHeight="68.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: #5a0f19; -fx-border-width: 0px 0px 2px 0px;" text="Return Book" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnBorrowHistory" mnemonicParsing="false" onAction="#burrowhistoryOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="Borrowing History" textFill="WHITE">
+            <Button fx:id="btnBorrowHistory" mnemonicParsing="false" onAction="#borrowhistoryOnAction" prefHeight="70.0" prefWidth="159.0" style="-fx-border-color: white; -fx-background-color: #5a0f19; -fx-border-width: 0px 0px 2px 0px;" text="Borrowing History" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
          </children>
       </VBox>
-      <Label alignment="CENTER" layoutX="177.0" layoutY="56.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #00008b;" text="Total Books" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="177.0" layoutY="56.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Total Books" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="177.0" layoutY="105.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #00008b;" text="Total Members " textFill="WHITE">
+      <Label alignment="CENTER" layoutX="177.0" layoutY="105.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Total Members " textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="177.0" layoutY="152.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #00008b;" text="Borrowed Books" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="177.0" layoutY="152.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Borrowed Books" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="177.0" layoutY="202.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #00008b;" text="Overdue Books" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="177.0" layoutY="202.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #8a3119;" text="Overdue Books" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Button fx:id="btnLogOut" layoutX="239.0" layoutY="290.0" mnemonicParsing="false" onAction="#logoutOnAction" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: #00003d;" text="Logout" textFill="WHITE">
+      <Button fx:id="btnLogOut" layoutX="239.0" layoutY="290.0" mnemonicParsing="false" onAction="#logoutOnAction" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: #5a0f19;" text="Logout" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>

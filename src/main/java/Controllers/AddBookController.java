@@ -34,7 +34,7 @@ public class AddBookController {
     void homeOnAction(ActionEvent event) {
         Stage stage = new Stage();
         try {
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/login_page.fxml"))));
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/homePage.fxml"))));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
